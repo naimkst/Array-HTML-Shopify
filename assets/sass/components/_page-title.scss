@@ -1,0 +1,153 @@
+/// page-title
+.page-title {
+	height: 275px;
+	background-size: cover !important;
+}
+
+.breadcrumbs-section {
+	margin-bottom: 40px;
+	background: #3C3C3C;
+	padding: 20px;
+
+	h3 {
+		font-size: 40px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+		text-transform: uppercase;
+		font-family: $base-font;
+		margin-top: 5px;
+	}
+
+	ul {
+		display: flex;
+		margin-bottom: 0;
+
+		@media(max-width:575px) {
+			flex-wrap: wrap;
+		}
+
+		li {
+			font-size: 12px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 16px;
+			letter-spacing: 0.2px;
+			position: relative;
+
+			@media(max-width:575px) {
+				margin-bottom: 5px;
+			}
+
+			a {
+				font-weight: 600;
+				color: $white;
+
+				&:hover {
+					color: $theme-primary-color;
+				}
+			}
+
+			&+li {
+				padding-left: 15px;
+				margin-left: 15px;
+
+				&:before {
+					position: absolute;
+					left: 0;
+					top: 0;
+					content: "/";
+				}
+			}
+		}
+	}
+
+	&.style-2 {
+		margin-bottom: 0;
+		ul {
+			justify-content: center;
+
+			li {
+				&.active {
+					color: $theme-primary-color;
+				}
+				&+li {
+					&:before {
+						content: "\e649";
+						font-family: 'themify';
+						left: -6px;
+					}
+				}
+			}
+		}
+	}
+}
+
+.page-title {
+	padding: 120px 0;
+	background-size: cover !important;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	position: relative;
+	z-index: 1;
+
+	@media(max-width:575px) {
+		padding: 70px 0;
+	}
+
+	&:before {
+		content: "";
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		left: 0;
+		top: 0;
+		background: $black;
+		opacity: 0.2;
+		z-index: -1;
+	}
+
+	.page-title-content {
+		max-width: 894px;
+		margin: 0 auto;
+		text-align: center;
+
+		h2 {
+			font-size: 46px;
+			font-style: normal;
+			font-weight: 600;
+			line-height: 55.2px;
+			letter-spacing: 0.92px;
+			margin-top: 20px;
+
+			@media(max-width:767px) {
+				font-size: 40px;
+				line-height: 50px;
+			}
+
+			@media(max-width:575px) {
+				font-size: 25px;
+				line-height: 40px;
+			}
+		}
+
+		p {
+			font-size: 24px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+			color: rgba(255, 255, 255, 0.80);
+			font-family: $heading-font;
+			max-width: 498px;
+			margin: 0 auto;
+			margin-top: 20px;
+
+			@media(max-width:575px) {
+				font-size: 18px;
+				margin-top: 15px;
+			}
+		}
+	}
+
+}

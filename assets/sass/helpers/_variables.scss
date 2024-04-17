@@ -1,0 +1,173 @@
+/*---------------------------
+	Fonts
+----------------------------*/
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('../SofiaPro-Black.woff2') format('woff2'),
+        url('../SofiaPro-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('../SofiaPro-BlackItalic.woff2') format('woff2'),
+        url('../SofiaPro-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('../SofiaPro-Bold.woff2') format('woff2'),
+        url('../SofiaPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('../SofiaPro-BoldItalic.woff2') format('woff2'),
+        url('../SofiaPro-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('../SofiaPro-ExtraLight.woff2') format('woff2'),
+        url('../SofiaPro-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('../SofiaPro-ExtraLightItalic.woff2') format('woff2'),
+        url('../SofiaPro-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('../SofiaPro-Light.woff2') format('woff2'),
+        url('../SofiaPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('../SofiaPro-LightItalic.woff2') format('woff2'),
+        url('../SofiaPro-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('../SofiaPro-MediumItalic.woff2') format('woff2'),
+        url('../SofiaPro-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('../SofiaPro.woff2') format('woff2'),
+        url('../SofiaPro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('../SofiaPro-Medium.woff2') format('woff2'),
+        url('../SofiaPro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('../SofiaPro-SemiBoldItalic.woff2') format('woff2'),
+        url('../SofiaPro-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('../SofiaPro-SemiBold.woff2') format('woff2'),
+        url('../SofiaPro-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('../SofiaPro-UltraLight.woff2') format('woff2'),
+        url('../SofiaPro-UltraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('../SofiaPro-UltraLightItalic.woff2') format('woff2'),
+        url('../SofiaPro-UltraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('../SofiaPro-Italic.woff2') format('woff2'),
+        url('../SofiaPro-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+// fonts
+$base-font-size: 15;
+$base-font: 'Sofia Pro';
+$heading-font: 'Sofia Pro';
+
+
+// color
+$dark-gray: #1E1E1E; //
+$body-color: #1E1E1E;
+$white: #fff;
+$light: #DDDDDD; //
+$black: #131313;
+$small-black: #333;
+$cyan: #F9F9F9; //
+
+$theme-primary-color: #FF8800; //
+$theme-primary-color-s2: #EBC501; //
+$body-bg-color: #fff;
+$section-bg-color: #F1E2CC; //
+$text-color: #1E1E1E; //
+$text-light-color: #6F6F6F; //
+$heading-color: #1E1E1E;
+$border-color: #3C3C3C; //
+$border-color-s2: #F1E2CC; //

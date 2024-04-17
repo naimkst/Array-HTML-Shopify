@@ -1,0 +1,81 @@
+.theme-btn,
+.theme-btn-2,
+.theme-btn-4 {
+	background: $theme-primary-color;
+	color: $white;
+	display: inline-block;
+	font-weight: 500;
+	padding: 12px 45px;
+	border: 0;
+	z-index: 11;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 150%;
+	letter-spacing: -0.456px;
+	border: 0;
+	position: relative;
+	overflow: hidden;
+	transition: all .3s;
+	border-radius: 50px;
+
+	&::before {
+		position: absolute;
+		content: "";
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		background: $theme-primary-color;
+		transform-origin: 50%;
+		transition-property: transform;
+		transition-duration: 0.3s;
+		transition-timing-function: ease-out;
+		transition: 0.5s;
+		z-index: -1;
+	}
+
+
+	&:hover,
+	&:focus,
+	&:active {
+		background-color: $heading-color;
+		color: $white;
+
+		&:before {
+			transform: scaleX(0);
+		}
+	}
+
+	@include media-query(991px) {
+		font-size: 18px;
+		font-size: calc-rem-value(18);
+	}
+
+	@include media-query(767px) {
+		padding: 15px 22px;
+		font-size: 14px;
+	}
+}
+
+
+.theme-btn-2 {
+	color: $white;
+	background-color: $heading-color;
+	margin-right: 20px;
+
+	&::before {
+		background: $theme-primary-color-s2;
+	}
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: $white;
+
+		&:before {
+			transform: scaleX(0);
+			background: $theme-primary-color-s2;
+		}
+	}
+}

@@ -1,0 +1,133 @@
+$flaticon_ecommerce-font: "flaticon_ecommerce";
+
+@font-face {
+    font-family: $flaticon_ecommerce-font;
+    src: url("./flaticon_ecommerce.ttf?cf9c35ed7fabfc0c1f6c1de270d8ffb8") format("truetype"),
+url("./flaticon_ecommerce.woff?cf9c35ed7fabfc0c1f6c1de270d8ffb8") format("woff"),
+url("./flaticon_ecommerce.woff2?cf9c35ed7fabfc0c1f6c1de270d8ffb8") format("woff2"),
+url("./flaticon_ecommerce.eot?cf9c35ed7fabfc0c1f6c1de270d8ffb8#iefix") format("embedded-opentype"),
+url("./flaticon_ecommerce.svg?cf9c35ed7fabfc0c1f6c1de270d8ffb8#flaticon_ecommerce") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_ecommerce !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_ecommerce-map: (
+    "down": "\f101",
+    "search": "\f102",
+    "heart": "\f103",
+    "user-profile": "\f104",
+    "right-and-left": "\f105",
+    "refresh": "\f106",
+    "add-to-cart": "\f107",
+    "star": "\f108",
+    "arrow-point-to-right": "\f109",
+    "right-arrow": "\f10a",
+    "left-arrow": "\f10b",
+    "left-arrow-1": "\f10c",
+    "pin": "\f10d",
+    "mail": "\f10e",
+    "phone": "\f10f",
+    "facebook-app-symbol": "\f110",
+    "twitter": "\f111",
+    "instagram": "\f112",
+    "linkedin": "\f113",
+    "grid": "\f114",
+    "menu": "\f115",
+    "tick": "\f116",
+    "remove": "\f117",
+    "downward-arrow": "\f118",
+    "coupon": "\f119",
+    "eye": "\f11a",
+    "quote": "\f11b",
+);
+
+.flaticon-down:before {
+    content: map-get($flaticon_ecommerce-map, "down");
+}
+.flaticon-search:before {
+    content: map-get($flaticon_ecommerce-map, "search");
+}
+.flaticon-heart:before {
+    content: map-get($flaticon_ecommerce-map, "heart");
+}
+.flaticon-user-profile:before {
+    content: map-get($flaticon_ecommerce-map, "user-profile");
+}
+.flaticon-right-and-left:before {
+    content: map-get($flaticon_ecommerce-map, "right-and-left");
+}
+.flaticon-refresh:before {
+    content: map-get($flaticon_ecommerce-map, "refresh");
+}
+.flaticon-add-to-cart:before {
+    content: map-get($flaticon_ecommerce-map, "add-to-cart");
+}
+.flaticon-star:before {
+    content: map-get($flaticon_ecommerce-map, "star");
+}
+.flaticon-arrow-point-to-right:before {
+    content: map-get($flaticon_ecommerce-map, "arrow-point-to-right");
+}
+.flaticon-right-arrow:before {
+    content: map-get($flaticon_ecommerce-map, "right-arrow");
+}
+.flaticon-left-arrow:before {
+    content: map-get($flaticon_ecommerce-map, "left-arrow");
+}
+.flaticon-left-arrow-1:before {
+    content: map-get($flaticon_ecommerce-map, "left-arrow-1");
+}
+.flaticon-pin:before {
+    content: map-get($flaticon_ecommerce-map, "pin");
+}
+.flaticon-mail:before {
+    content: map-get($flaticon_ecommerce-map, "mail");
+}
+.flaticon-phone:before {
+    content: map-get($flaticon_ecommerce-map, "phone");
+}
+.flaticon-facebook-app-symbol:before {
+    content: map-get($flaticon_ecommerce-map, "facebook-app-symbol");
+}
+.flaticon-twitter:before {
+    content: map-get($flaticon_ecommerce-map, "twitter");
+}
+.flaticon-instagram:before {
+    content: map-get($flaticon_ecommerce-map, "instagram");
+}
+.flaticon-linkedin:before {
+    content: map-get($flaticon_ecommerce-map, "linkedin");
+}
+.flaticon-grid:before {
+    content: map-get($flaticon_ecommerce-map, "grid");
+}
+.flaticon-menu:before {
+    content: map-get($flaticon_ecommerce-map, "menu");
+}
+.flaticon-tick:before {
+    content: map-get($flaticon_ecommerce-map, "tick");
+}
+.flaticon-remove:before {
+    content: map-get($flaticon_ecommerce-map, "remove");
+}
+.flaticon-downward-arrow:before {
+    content: map-get($flaticon_ecommerce-map, "downward-arrow");
+}
+.flaticon-coupon:before {
+    content: map-get($flaticon_ecommerce-map, "coupon");
+}
+.flaticon-eye:before {
+    content: map-get($flaticon_ecommerce-map, "eye");
+}
+.flaticon-quote:before {
+    content: map-get($flaticon_ecommerce-map, "quote");
+}

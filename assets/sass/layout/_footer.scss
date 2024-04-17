@@ -1,0 +1,217 @@
+/*--------------------------------------------------------------
+03. Footer
+--------------------------------------------------------------*/
+
+.footer-section {
+    background: #426567;
+    position: relative;
+    font-size: 15px;
+    overflow: hidden;
+    z-index: 1;
+
+    ul {
+        list-style: none;
+    }
+
+    p {
+        color: $white;
+        margin-top: 30px;
+
+        @media (max-width: 991px) {
+            font-size: 16px;
+        }
+    }
+
+    li {
+        color: $white;
+    }
+
+    .container {
+        position: relative;
+    }
+
+    .upper-footer {
+        padding: 80px 0 70px;
+
+    }
+
+    @media (max-width: 991px) {
+
+        .upper-footer {
+            padding: 80px 0 0px;
+        }
+    }
+
+    @media (max-width: 767px) {
+
+        .upper-footer {
+            padding: 60px 0 0px;
+        }
+    }
+
+    @media (max-width: 991px) {
+
+        .upper-footer .col {
+            min-height: 235px;
+            margin-bottom: 50px;
+        }
+    }
+
+    @media (max-width: 767px) {
+
+        .upper-footer .col {
+            min-height: auto;
+        }
+    }
+
+    .widget-title {
+        margin-bottom: 30px;
+        position: relative;
+
+        h3 {
+            color: $white;
+            margin: 0;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 150%;
+            letter-spacing: -0.275px;
+            text-transform: uppercase;
+
+            @media (max-width: 1199px) {
+                font-size: 20px;
+            }
+
+            @media (max-width: 991px) {
+                font-size: 16px;
+            }
+        }
+    }
+
+    @media (max-width: 767px) {
+
+        .widget-title {
+            margin-bottom: 20px;
+        }
+    }
+
+    .about-widget {
+        padding-right: 50px;
+
+        .widget-title {
+            margin-bottom: 0;
+        }
+    }
+
+
+    .about-widget {
+        p {
+            margin-bottom: 0.8em;
+            line-height: 1.9em;
+
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .link-widget {
+        overflow: hidden;
+
+        ul {
+            li {
+                position: relative;
+
+                a {
+                    color: $white;
+                    font-size: 25px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 150%;
+                    letter-spacing: -0.275px;
+                    display: block;
+
+                    @media (max-width: 1199px) {
+                        font-size: 20px;
+                    }
+
+                    @media (max-width: 991px) {
+                        font-size: 16px;
+                    }
+
+                    &:hover {
+                        color: $theme-primary-color;
+                    }
+                }
+            }
+
+            li+li {
+                margin-top: 6px;
+            }
+        }
+    }
+
+    .address-widget {
+        text-align: right;
+
+        @media (max-width: 767px) {
+            text-align: left;
+        }
+
+        ul {
+            margin-top: 30px;
+            li {
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 150%;
+                letter-spacing: -0.22px;
+
+                @media (max-width: 991px) {
+                    font-size: 16px;
+                }
+        
+            }
+        }
+    }
+
+
+    .lower-footer {
+        text-align: center;
+        position: relative;
+        padding-bottom: 60px;
+
+
+        .lower-footer-link {
+            text-align: right;
+
+            @media (max-width: 991px) {
+                text-align: center;
+            }
+        }
+
+        .copy-wrap {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .copyright {
+            display: inline-block;
+            font-size: 16px;
+            margin: 0;
+
+            a {
+                color: $white;
+                text-decoration: none;
+            }
+
+            @media (max-width: 991px) {
+                float: none;
+                display: block;
+            }
+        }
+    }
+
+}

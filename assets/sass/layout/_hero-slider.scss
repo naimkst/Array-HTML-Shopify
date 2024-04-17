@@ -1,0 +1,181 @@
+/*--------------------------------------------------------------
+3. content
+--------------------------------------------------------------*/
+
+// static-hero
+.static-hero {
+	width: 100%;
+	height: 697px;
+	display: flex;
+	position: relative;
+	z-index: 0;
+
+	@include media-query(1199px) {
+		min-height: 700px;
+	}
+
+	@include media-query(991px) {
+		height: 1082px;
+	}
+
+	.hero-bg {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+
+		@include media-query(991px) {
+			display: none;
+		}
+	}
+
+	.hero-bg-2 {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		display: none;
+
+		@include media-query(991px) {
+			display: block;
+		}
+	}
+
+	.gradient-overlay+.container {
+		position: relative;
+		z-index: 11;
+	}
+
+	.swiper-slide {
+		position: relative;
+		z-index: 11;
+	}
+
+	.slide-title-top {
+		max-width: 680px;
+
+		@include media-query(991px) {
+			margin: 0 auto;
+			margin-bottom: 20px;
+		}
+
+		@include media-query(767px) {
+			max-width: 500px;
+		}
+
+		span {
+			font-weight: 500;
+			font-size: 25px;
+			color: $white;
+			line-height: 30px;
+
+			@include media-query(767px) {
+				font-size: 20px;
+				line-height: 20px;
+			}
+		}
+	}
+
+	.slide-title {
+		max-width: 680px;
+		margin-bottom: 20px;
+
+		@include media-query(991px) {
+			margin: 0 auto;
+			margin-bottom: 20px;
+		}
+		@include media-query(767px) {
+			max-width: 500px;
+		}
+
+		h2 {
+			margin: 0 0 15px;
+			font-size: 40px;
+			font-style: normal;
+			font-weight: 900;
+			line-height: 150%;
+			color: $white;
+
+			@include media-query(991px) {
+				font-size: 70px;
+				line-height: 80px;
+			}
+
+			@include media-query(767px) {
+				font-size: 40px;
+				line-height: 50px;
+			}
+
+			@include media-query(399px) {
+				font-size: 35px;
+				line-height: 35px;
+			}
+
+			span {
+				font-style: italic;
+				display: block;
+			}
+		}
+	}
+
+	p {
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 150%;
+		letter-spacing: -0.22px;
+		color: $white;
+		max-width: 457px;
+		margin-bottom: 30px;
+
+		@include media-query(991px) {
+			margin: 0 auto;
+			margin-bottom: 20px;
+		}
+
+		@include media-query(767px) {
+			font-size: 18px;
+		}
+	}
+
+	.slide-content {
+		padding-top: 100px;
+
+		@include media-query(991px) {
+			text-align: center;
+		}
+	}
+	.swiper-slide {
+		overflow: hidden;
+	}
+
+	.hero-container {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+
+	.slide-inner,
+	.hero-inner {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: 1;
+		background-size: cover;
+		background-position: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: left;
+
+		@include media-query(991px) {
+			align-items: flex-start;
+		}
+	}
+}
